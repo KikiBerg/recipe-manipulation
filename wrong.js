@@ -20,6 +20,10 @@ document.querySelector('.ingredients-container').style.backgroundColor =
 const bottomIngredientsList = document.querySelector('.ingredients-list-bottom');
 bottomIngredientsList.innerHTML = '<li>15st digistivetex</li><li>Lite smör</li>';
 
+document.querySelector('.ingredients-list-paste li:nth-child(3)').textContent = '3tsk vaniljsocker';
 
+const pasteIngredientsList = document.querySelector('.ingredients-list-paste');
+const newIngredient = document.createElement('li');
+newIngredient.textContent = '400g naturell philadelphiaost';
+pasteIngredientsList.appendChild(newIngredient);
 
-  
