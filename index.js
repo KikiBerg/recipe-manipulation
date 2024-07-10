@@ -17,3 +17,6 @@ const imageInfo = {
   width: image.naturalWidth
 };
 console.log('Image info:', imageInfo);
+
+const pasteIngredients = document.querySelector('.ingredients-list-paste').children.length;
+console.log('Number of paste ingredients: ', pasteIngredients);
