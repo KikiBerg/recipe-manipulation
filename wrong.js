@@ -34,5 +34,6 @@ pasteIngredientsList.appendChild(newIngredient);
 document.querySelector('.instructions').classList.remove('shadow');
 
 const instructionsList = document.querySelector('.instructions-list');
-instructionsList.children[1].textContent = 'Separera ägggulor och äggvitor. Äggvitorna lägger du i en stor bunke, äggulorna i en liten bunke.';
+instructionsList.children[1].textContent =
+  'Separera ägggulor och äggvitor. Äggvitorna lägger du i en stor bunke, äggulorna i en liten bunke.';
 instructionsList.children[8].textContent = 'Ställ in i frysen över natten.';
